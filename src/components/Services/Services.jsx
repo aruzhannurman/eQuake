@@ -17,26 +17,29 @@ import Icon3 from "../../assets/img/svg-4.svg";
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <H1>О НАС</H1>
+      <H1>Наши Цели</H1>
       <Wrapper>
         <Card>
           <Icon src={Icon1} />
-          <H2>Reduce expenses</H2>
+          <H2>
+            Научить людей как 
+
+          </H2>
           <P>
-            We help you reduce your fees and increase your overall revenue! 😉
+            ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы 😉
           </P>
         </Card>
 
         <Card>
           <Icon src={Icon2} />
-          <H2>Virtual offices</H2>
-          <P>Access our platform anywhere in the world! 🌎</P>
+          <H2>Vаааааааааааааааааа</H2>
+          <P>вввввввввввввввввввввввввввввввааааааааааааааааааааааааааа 🌎</P>
         </Card>
 
         <Card>
           <Icon src={Icon3} />
-          <H2>Premium Benefits</H2>
-          <P>Unlock our exclusive debit/credit card with 10% of cashback! 🤑</P>
+          <H2>ааааааааааааааааааа</H2>
+          <P>Uппппппппппппппппппппппппппппппппппппппппппппппппппппппппп🤑</P>
         </Card>
       </Wrapper>
     </ServicesContainer>
