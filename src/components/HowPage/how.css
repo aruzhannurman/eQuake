@@ -1,0 +1,11 @@
+.background{
+    height: 133vh;
+    width:100vw;
+  
+    /* background-color: #F3F3FC; */
+    background-size:cover;
+
+    /* background-repeat:no-repeat;
+background-size:contain; */
+
+}

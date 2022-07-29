@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 
 const bodyColor = "#f3f3fc";
-const containerColor = "#010606";
+const containerColor = "#1A2745";
 const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 
@@ -104,7 +104,7 @@ export const Logo = styled(LinkScroll)`
 `;
 
 export const Copy = styled.small`
-  color: #fff;
+  color: white;
   margin-bottom: 1rem;
 `;
 

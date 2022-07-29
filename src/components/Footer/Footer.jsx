@@ -1,4 +1,6 @@
 import React from "react";
+
+import logo from  "../../assets/img/logo.png";
 import { FaBehance, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 import {
@@ -61,26 +63,25 @@ const Footer = () => {
 
         <SocialMedia>
           <SMwrap>
-            <Logo to="home">dolla</Logo>
+            <Logo to="home"><img src={logo} alt=""/></Logo>
             <Copy>
-              ©️ Thiago Silva Lopes - {new Date().getFullYear} All rights
-              reserved.
+                ©️ Аружан Нурманова 2022 - {new Date().getFullYear} Все права защищены.
             </Copy>
 
             <SocialIcons>
-              <IconLink href="https://github.com/Thiagoow" target="_blank">
+              <IconLink href="#" target="_blank">
                 <FaGithub />
               </IconLink>
 
               <IconLink
-                href="https://www.behance.net/thiagosilval2"
+                href="#"
                 target="_blank"
               >
                 <FaBehance />
               </IconLink>
 
               <IconLink
-                href="https://www.linkedin.com/in/thiagosilvaloopes"
+                href="#"
                 target="_blank"
               >
                 <FaLinkedin />

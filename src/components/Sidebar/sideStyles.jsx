@@ -3,9 +3,9 @@ import { FaTimes } from "react-icons/fa";
 import { Link as LinkScroll } from "react-scroll";
 import { Link } from "react-router-dom";
 
-const containerColor = "#010606";
-const firstColor = "#00bb77";
-const firstAltColor = "#009955";
+const containerColor = "#1A2745";
+const firstColor = "#44ADFF";
+const firstAltColor = "#bde0fe";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -75,23 +75,23 @@ export const SideLinks = styled(LinkScroll)`
     }
   }
 
-  &.signUp {
-    content: "";
-    //position: relative;
-    display: flex;
-    justify-self: center;
-    width: 20%;
-    border-bottom: 4px solid ${firstColor};
-    border-radius: 0.25rem;
-    margin-top: 0.6rem;
+  // &.signUp {
+  //   content: "";
+  //   //position: relative;
+  //   display: flex;
+  //   justify-self: center;
+  //   width: 20%;
+  //   border-bottom: 4px solid ${firstColor};
+  //   border-radius: 0.25rem;
+  //   margin-top: 0.6rem;
 
-    @media screen and (max-width: 426px) {
-      width: 30%;
-    }
-    @media screen and (max-width: 322px) {
-      width: 40%;
-    }
-  }
+  //   @media screen and (max-width: 426px) {
+  //     width: 30%;
+  //   }
+  //   @media screen and (max-width: 322px) {
+  //     width: 40%;
+  //   }
+  // }
 `;
 
 export const BtnWrap = styled.div`

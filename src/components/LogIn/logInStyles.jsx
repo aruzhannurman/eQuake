@@ -2,28 +2,26 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const bodyColor = "#f3f3fc";
-const containerColor = "#010606";
+const containerColor = "red";
 const firstColor = "rgb(0, 187, 119)";
 const firstAltColor = "rgb(0, 153, 85)";
 
 export const Container = styled.div`
-  min-height: 692px;
+ height: 792px;
   position: fixed;
   inset: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(
-    188deg,
-    rgba(0, 153, 85) 0%,
-    rgba(0, 187, 119) 100%
-  );
+  background: #f3f3f3;
 `;
 
 export const FormWrap = styled.div`
-  height: 100%;
+  height: fit-content;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  
+  
+
 
   @media screen and (max-width: 400px) {
     height: 80%;
@@ -32,15 +30,21 @@ export const FormWrap = styled.div`
 
 export const Icon = styled(Link)`
   margin-left: 2rem;
-  margin-top: 2rem;
+  align-items:start;
+  display:flex;
+  margin-top: 15px;
+  margin-left:40px;
   text-decoration: none;
   color: #fff;
   font-weight: 700;
   font-size: 2rem;
+  height:fit-content;
+  width:fit-content;
+  
 
   @media screen and (max-width: 480px) {
     margin-left: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0;
   }
 `;
 
@@ -109,3 +113,13 @@ export const Text = styled.span`
   color: #fff;
   font-size: 0.8rem;
 `;
+
+// export const ArrowForward = styled(MdArrowForward)`
+//   margin-left: 8px;
+//   font-size: 1.25rem;
+// `;
+
+// export const ArrowRight = styled(MdKeyboardArrowRight)`
+//   margin-left: 8px;
+//   font-size: 1.25rem;
+// `;

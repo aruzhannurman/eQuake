@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import Navbar from "../components/Navbar/Navbar";
 import HeroSection from "../components/HeroSection/HeroSection";
 import InfoSection from "../components/InfoSection/InfoSection";
+import HowPage from "../components/HowPage/how";
 import {
   homeObjOne,
   homeObjTwo,
@@ -23,10 +24,12 @@ function Home() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
       <Services />
-      <InfoSection {...homeObjThree} />
+      
+      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjThree} /> */}
+      <HowPage/>
       <Footer />
     </>
   );

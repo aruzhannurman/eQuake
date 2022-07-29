@@ -1,4 +1,9 @@
 import React from "react";
+import './login.css'
+
+import Demo from '././cur_loc';
+import logo from  "../../assets/img/logo2.svg";
+import map from "../../assets/img/map.png";
 import {
   Container,
   FormWrap,
@@ -12,28 +17,53 @@ import {
   Text
 } from "./logInStyles";
 
+import {
+  HeroContainer,
+  HeroBg,
+  VideoBg,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  BtnWrapper,
+  ArrowForward,
+  ArrowRight
+} from "../HeroSection/heroStyles";
+
 const LogIn = () => {
+
+ 
   return (
     <>
       <Container>
         <FormWrap>
-          <Icon to="/">dolla</Icon>
+          <Icon to="/"> 
+          <img id ="logo" src={logo} alt=""/>
+          </Icon>
 
-          <FormContent>
-            <Form action="#">
-              <H1>Log In to your account</H1>
+          <div className="Map">
+              <div className="Header">
+                  <h1 id="header">Сейсмически безопасные <span id="h-blue">места в г. Алматы</span></h1>
+              </div>
 
-              <Label htmlFor="for">E-mail</Label>
-              <Input type="email" required />
+              <div className="mapclass"> 
+              <img id ="map" src={map} alt=""/>
+          </div>
 
-              <Label htmlFor="for">Password</Label>
-              <Input type="password" required />
+         
+          {/* <button id="login" onMouseEnter={onHover1}
+            onMouseLeave={onHover1} > Найти  Локацию {hover1 ? <ArrowForward /> : <ArrowRight />}
+          </button> */}
 
-              <Button type="submit">Log In</Button>
-              <Text>Forgot my password</Text>
-            </Form>
-          </FormContent>
+          </div>
+
+         
+      
         </FormWrap>
+
+        {/* <div className="top">
+          <button id="login2" className="button">Найти ТОП-3 ближайшие локации </button>
+          </div> */}
+          <Demo/>
       </Container>
     </>
   );

@@ -4,13 +4,13 @@ import { Link as LinkScroll } from "react-scroll";
 
 /*======== CSS Variables: ========*/
 const varHeaderHeight = "5rem";
-const firstColor = "#00bb77";
-const firstAltColor = "#009955";
+const firstColor = "#44ADFF";
+const firstAltColor = "#bde0fe";
 
 /*======== Components: ========*/
 export const Nav = styled.nav`
   //If user scroll than the background is black. If not, it's transparent:
-  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
+  background: ${({ scrollNav }) => (scrollNav ? "#1A2745" : "transparent")};
   height: ${varHeaderHeight};
   margin-top: -${varHeaderHeight};
   display: flex;
@@ -20,6 +20,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  margin-left: -200px;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -31,9 +32,11 @@ export const NavbarContainer = styled.div`
   justify-content: space-between;
   height: ${varHeaderHeight};
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   padding: 0 24px;
   max-width: 1100px;
+  margin-left:-100px;
+  
 `;
 
 export const NavLogo = styled(LinkScroll)`
@@ -43,9 +46,38 @@ export const NavLogo = styled(LinkScroll)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 130px;
   font-weight: bold;
   text-decoration: none;
+  padding-left: 0.5rem;
+  
+
+
+  @media only screen and (min-width : 320px) {
+    
+  }
+
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (min-width : 480px) {
+    justify-self: flex-start;
+  
+  }
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+  
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+ 
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+  }
+
+
+ 
 `;
 
 export const MobileIcon = styled.div`

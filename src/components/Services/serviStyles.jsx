@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-const bodyColor = "#f3f3fc";
-const containerColor = "#010606";
+const bodyColor = "#44ADFF";
+const containerColor = "#f3f3f3";
 const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 
@@ -28,7 +28,7 @@ export const ServicesContainer = styled.div`
 
 export const H1 = styled.h1`
   font-size: 2.2rem;
-  color: #fff;
+  color: #1A2745;
   margin-bottom: 4rem;
 
   @media screen and (max-width: 768px) {
@@ -73,7 +73,7 @@ export const Card = styled.div`
   &:hover {
     transform: scale(1.02);
     transition: all 0.2 ease-in-out;
-    cursor: pointer;
+    // cursor: pointer;
   }
 
   @media screen and (max-width: 768px) {

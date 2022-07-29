@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const bodyColor = "#f3f3fc";
 const containerColor = "#010606";
@@ -7,12 +8,12 @@ const firstColor = "#00bb77";
 const firstAltColor = "#009955";
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 700px;
+  height: 800px;
   position: relative;
   z-index: 1;
 
@@ -48,6 +49,8 @@ export const HeroBg = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+ background-color:#1A2745;
+  // background-image: linear-gradient( #5a189a,#1A2745);
 `;
 
 export const VideoBg = styled.video`
@@ -57,6 +60,7 @@ export const VideoBg = styled.video`
   object-fit: cover;
   background: #232a34;
 `;
+
 
 export const HeroContent = styled.div`
   z-index: 3;
@@ -70,23 +74,28 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
   color: #fff;
-  font-size: 3rem;
+  
+  font-size: 40px;
   text-align: center;
+  margin-top: -240px;
 
   @media screen and (max-width: 768px) {
     font-size: 2.5rem;
+    
   }
   @media screen and (max-width: 580px) {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-top: -100px;
   }
 `;
 
 export const HeroP = styled.p`
   margin-top: 1.5rem;
-  color: #fff;
-  font-size: 1.25rem;
+  color: white;
+  font-size: 1.20rem;
   text-align: center;
-  max-width: 600px;
+  max-width: 700px;
+
 
   @media screen and (max-width: 768px) {
     font-size: 1.12rem;
@@ -98,9 +107,14 @@ export const HeroP = styled.p`
 
 export const BtnWrapper = styled.div`
   margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
+   display: flex;
+  flex-direction: row;
   align-items: center;
+  position: relative;
+  justify-content: space-between;
+ 
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

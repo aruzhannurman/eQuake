@@ -1,4 +1,6 @@
 import React from "react";
+
+import logo from  "../../assets/img/logo.svg";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons";
 import {
@@ -12,6 +14,7 @@ import {
   NavBtn,
   BtnLink
 } from "./navStyles";
+
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = React.useState(false);
@@ -36,7 +39,9 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo to="home">dolla</NavLogo>
+            <NavLogo to="home">
+              <img src={logo} alt=""/>
+            </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
@@ -44,7 +49,7 @@ const Navbar = ({ toggle }) => {
             <Menu>
               <Item>
                 <NavLinks
-                  to="about"
+                  to="services"
                   /*
                   smooth={true}
                   duration={500}
@@ -55,7 +60,7 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass="active"
                 >
-                  About
+                  О Нас
                 </NavLinks>
               </Item>
 
@@ -67,39 +72,39 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass="active"
                 >
-                  Discover
+                  Карта
                 </NavLinks>
               </Item>
 
               <Item>
                 <NavLinks
-                  to="services"
+                  to="about"
                   spy={true}
                   exact="true"
                   offset={-80}
                   activeClass="active"
                 >
-                  Services
+                  Инфо
                 </NavLinks>
               </Item>
 
               <Item>
                 <NavLinks
-                  to="signUp"
+                  to="how"
                   className="signUp"
                   spy={true}
                   exact="true"
                   offset={-80}
                   activeClass="active"
                 >
-                  Sign Up
+                  Советы
                 </NavLinks>
               </Item>
             </Menu>
 
-            <NavBtn>
+            {/* <NavBtn>
               <BtnLink to="/login">Log In</BtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

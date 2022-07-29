@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 const containerColor = "#010606";
-const firstColor = "#00bb77";
-const firstAltColor = "#009955";
+const firstColor = "#44ADFF";
+const firstAltColor = "#bde0fe";
 
 export const Button = styled(Link)`
   border-radius: 50px;
-  background: ${({ btnPrimary }) => (btnPrimary ? "#00bb77" : "#010606")};
+  background: ${({ btnPrimary }) => (btnPrimary ? "#44ADFF" : "#010606")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px" : "12px 30px")};
   color: ${({ btnDarkTxt }) => (btnDarkTxt ? "#010606" : "#fff")};

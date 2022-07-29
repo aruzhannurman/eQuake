@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
             activeClass="active"
           >
-            About
+            О Нас
           </SideLinks>
           <SideLinks
             to="discover"
@@ -37,7 +37,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
             activeClass="active"
           >
-            Discover
+            Карта
           </SideLinks>
           <SideLinks
             to="services"
@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
             activeClass="active"
           >
-            Services
+            Инфо
           </SideLinks>
           <SideLinks
             to="signUp"
@@ -58,13 +58,13 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
             activeClass="active"
           >
-            Sign Up
+            Советы
           </SideLinks>
         </Menu>
 
-        <BtnWrap>
+         {/* <BtnWrap>
           <SideRoute to="/login">Log In</SideRoute>
-        </BtnWrap>
+        </BtnWrap> */}
       </Wrapper>
     </SidebarContainer>
   );
