@@ -9,8 +9,9 @@ const HowPage = () => {
 
   return (
     <>
+    <div className="backPage">
     <div id="how" className="background" style={{ backgroundImage: `url(${background})` }}>
-    
+    </div>
     </div>
     </>
   );

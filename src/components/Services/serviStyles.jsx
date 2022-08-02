@@ -47,6 +47,7 @@ export const Wrapper = styled.div`
   align-items: center;
   grid-gap: 1rem;
   padding: 0 3rem;
+  
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -69,7 +70,7 @@ export const Card = styled.div`
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
-
+color: white;
   &:hover {
     transform: scale(1.02);
     transition: all 0.2 ease-in-out;

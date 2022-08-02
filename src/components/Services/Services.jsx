@@ -10,9 +10,9 @@ import {
   P
 } from "./serviStyles";
 
-import Icon1 from "../../assets/img/svg-1.svg";
-import Icon2 from "../../assets/img/svg-5.svg";
-import Icon3 from "../../assets/img/svg-4.svg";
+import Icon1 from "../../assets/img/human1.svg";
+import Icon2 from "../../assets/img/human2.svg";
+import Icon3 from "../../assets/img/human3.svg";
 
 const Services = () => {
   return (
@@ -22,24 +22,24 @@ const Services = () => {
         <Card>
           <Icon src={Icon1} />
           <H2>
-            Научить людей как 
+            Подсказать людям быстрое и безопасное место
 
           </H2>
-          <P>
-            ыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы 😉
-          </P>
+          {/* <P>
+            We help you reduce your fees and increase your overall revenue! 😉
+          </P> */}
         </Card>
 
         <Card>
           <Icon src={Icon2} />
-          <H2>Vаааааааааааааааааа</H2>
-          <P>вввввввввввввввввввввввввввввввааааааааааааааааааааааааааа 🌎</P>
+          <H2>Помочь людям при выборе и покупке дома</H2>
+          {/* <P>Access our platform anywhere in the world! 🌎</P> */}
         </Card>
 
         <Card>
           <Icon src={Icon3} />
-          <H2>ааааааааааааааааааа</H2>
-          <P>Uппппппппппппппппппппппппппппппппппппппппппппппппппппппппп🤑</P>
+          <H2>Воспитать осознанное и новое  поколение  </H2>
+          {/* <P>Unlock our exclusive debit/credit card with 10% of cashback! 🤑</P> */}
         </Card>
       </Wrapper>
     </ServicesContainer>

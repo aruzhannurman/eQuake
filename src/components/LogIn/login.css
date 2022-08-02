@@ -16,7 +16,9 @@ color:#44ADFF;
 }
 
 .Header{
+  display: flex;
     color: rgb(4, 4, 4);
+   
     /* border:solid; */
     /* display: flex;
     
@@ -30,17 +32,10 @@ color:#44ADFF;
 
     font-size: 16px;
   text-align: center;
+  justify-content: center;
   
-
-  /* @media screen and (max-width: 768px) {
-    font-size: 2.5rem;
-    
-  }
-  @media screen and (max-width: 580px) {
-    font-size: 1.8rem;
-    margin-top: -100px;
-  } */
 }
+
 
 @media screen and (max-width: 768px) {
   .Header{
@@ -50,9 +45,12 @@ color:#44ADFF;
   }
   @media screen and (max-width: 580px) {
     .Header{
-    font-size: 12px;
-    margin-top: 4%;
+    font-size: 10px;
     text-align: center;
+    margin-top: 30px;
+    
+    margin-left: -50px;
+    margin-right: 30px;
     
   }}
 #header{
@@ -70,6 +68,7 @@ color:#44ADFF;
         width:80%;
         justify-content: center;
         height:50%;
+        
     }
     #map{
         display: flex;
@@ -86,6 +85,13 @@ color:#44ADFF;
         height:30%;
         
     } */
+    @media screen and (max-width: 580px) {
+      #map{
+        height:180px;
+            width:80vw;
+            margin-left: -60px;
+      }
+    }
 
     #login2{
       margin-left: 43%;;
@@ -127,7 +133,7 @@ color:#44ADFF;
 
       .top{
         display: flex;
-        border:solid;
+        /* border:solid; */
         justify-content: center;
         width:100%;
         margin-top: 1%;
@@ -136,8 +142,9 @@ color:#44ADFF;
       }
 
       .text{
-        border:solid;
+        /* border:solid; */
         display: flex;
+        border-radius: 50px;
         /* justify-content: center;
         text-align:left; */
         flex-direction: column;
@@ -150,14 +157,14 @@ color:#44ADFF;
 
         padding: 16px 24px 12px;
         border: 1px solid rgb(230, 230, 230);
-        border-radius: 4px;
+        
         box-shadow: rgb(221, 224, 231) 0px 1px 3px 0px;
         overflow: hidden;
        
         transform: translateZ(0px);
         transition: box-shadow 200ms ease 0s;
         text-align: left;
-        background-color: #cfd4d9;
+        background-color: #3490eca7;
         
       }
 
@@ -165,7 +172,7 @@ color:#44ADFF;
         margin-top: 1%;
         display: flex;
         flex-direction: row;
-        border:solid;
+        /* border:solid; */
         justify-content: space-evenly;
         width:80%;
         margin-left: 10%;

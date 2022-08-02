@@ -17,12 +17,7 @@
     
   
     /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-        width:100vw;
-        margin-bottom:200px;
-        display: flex;
-        
-    }
+
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
 
@@ -38,6 +33,15 @@
     @media only screen and (min-width : 992px) {
     }
   
+}
+
+@media only screen and (max-width : 480px) {
+    #townmain{
+        margin-top: 415px;
+     
+    }
+
+   
 }
 
 #townmain2{
@@ -70,6 +74,8 @@
     }
   
 }
+
+
 #blur{
     z-index: 10;
     margin-top: 200px;

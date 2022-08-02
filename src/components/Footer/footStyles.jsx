@@ -4,15 +4,16 @@ import { Link as LinkScroll } from "react-scroll";
 
 const bodyColor = "#f3f3fc";
 const containerColor = "#1A2745";
-const firstColor = "#00bb77";
+const firstColor = "#44ADFF";
 const firstAltColor = "#009955";
 
 export const FooterContainer = styled.footer`
   background: ${containerColor};
+  
 `;
 
 export const Wrapper = styled.div`
-  padding: 3rem 1.5rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

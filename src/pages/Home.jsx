@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import HeroSection from "../components/HeroSection/HeroSection";
 import InfoSection from "../components/InfoSection/InfoSection";
 import HowPage from "../components/HowPage/how";
+import WhatPage from "../components/WhatPage/what";
 import {
   homeObjOne,
   homeObjTwo,
@@ -26,9 +27,10 @@ function Home() {
       <HeroSection />
       <Services />
       
-      <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjOne} /> */}
       {/* <InfoSection {...homeObjThree} /> */}
+      <WhatPage/>
       <HowPage/>
       <Footer />
     </>

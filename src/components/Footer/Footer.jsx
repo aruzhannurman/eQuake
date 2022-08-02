@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Wrapper>
-        <LinksContainer>
+        {/* <LinksContainer>
           <LinksWrapper>
             <LinkItens>
               <LinkTitle>About Us</LinkTitle>
@@ -59,7 +59,7 @@ const Footer = () => {
               <FooterLink to="">Facebook</FooterLink>
             </LinkItens>
           </LinksWrapper>
-        </LinksContainer>
+        </LinksContainer> */}
 
         <SocialMedia>
           <SMwrap>
@@ -87,7 +87,7 @@ const Footer = () => {
                 <FaLinkedin />
               </IconLink>
 
-              <IconLink href="https://thiagosl.vercel.app" target="_blank">
+              <IconLink href="#" target="_blank">
                 <BiWorld />
               </IconLink>
             </SocialIcons>

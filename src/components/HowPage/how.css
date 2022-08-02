@@ -9,3 +9,18 @@
 background-size:contain; */
 
 }
+
+@media screen and (max-width: 580px) {
+    .background{
+   
+    height: 32vh;
+    width:100vw;
+  }
+
+  .backPage{
+    height:300px;
+    width:100%;
+    background-color: #F3F3FC;
+    padding-top: 20px;
+  }
+}
