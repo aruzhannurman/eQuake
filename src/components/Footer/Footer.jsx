@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from  "../../assets/img/logo.png";
-import { FaBehance, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiWorld } from "react-icons/bi";
 import {
   FooterContainer,
@@ -69,19 +69,19 @@ const Footer = () => {
             </Copy>
 
             <SocialIcons>
-              <IconLink href="#" target="_blank">
+              <IconLink href="https://github.com/aruzhannurman" target="_blank">
                 <FaGithub />
               </IconLink>
 
               <IconLink
-                href="#"
+                href="https://www.instagram.com/heeeyaru/"
                 target="_blank"
               >
-                <FaBehance />
+                <FaInstagram />
               </IconLink>
 
               <IconLink
-                href="#"
+                href="www.linkedin.com/in/aruzhan-nurmanova-04879021b"
                 target="_blank"
               >
                 <FaLinkedin />

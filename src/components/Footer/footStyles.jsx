@@ -107,6 +107,11 @@ export const Logo = styled(LinkScroll)`
 export const Copy = styled.small`
   color: white;
   margin-bottom: 1rem;
+
+  @media screen and (max-width: 580px) {
+    text-align: -moz-center;
+  }
+  
 `;
 
 export const SocialIcons = styled.div`

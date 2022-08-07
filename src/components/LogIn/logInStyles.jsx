@@ -8,11 +8,16 @@ const firstAltColor = "rgb(0, 153, 85)";
 
 export const Container = styled.div`
  height: 792px;
-  position: fixed;
+   position: fixed;
   inset: 0;
   z-index: 0;
   overflow: hidden;
   background: #f3f3f3;
+  @media screen and (max-width: 580px) {
+    position:relative;
+    height: 850px;
+  
+  }
 `;
 
 export const FormWrap = styled.div`
@@ -23,8 +28,9 @@ export const FormWrap = styled.div`
   
 
 
-  @media screen and (max-width: 400px) {
-    height: 80%;
+  @media screen and (max-width: 580px) {
+    height: 50%;
+  
   }
 `;
 

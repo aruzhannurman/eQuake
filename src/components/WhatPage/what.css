@@ -15,10 +15,7 @@ background-size:contain; */
     display: none;
 }
 
-.backgroup{
-   
-    height:900px;
-}
+
 
 .TextMain{
     font-size: 40px;
@@ -26,7 +23,7 @@ background-size:contain; */
   margin-top: 0;
   padding-top: 15px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
 
 
 }
@@ -48,8 +45,12 @@ background-size:contain; */
   .image{
 
     display: flex;
-    height:800px;
-    width:100%;
+    position: relative;
+    height:60%;
+    width:100vw;
+    /* border:solid; */
+    padding:0;
+    margin-left: -120px;
 
   }
 
@@ -68,19 +69,23 @@ background-size:contain; */
     /* top:7%;
     bottom: 70px;
     left: 437px; */
-    width: 44%;
-    height: 50%;
+    /* width: 44%; */
+    width:50%;
+   
     height:580px; 
+    margin-left: 28%;
+    margin-top: 3%;
     background: rgb(27, 25, 25);
     opacity:0.94;
     padding: 25px 25px 30px 25px;
     border-radius: 15px;
     box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.15);
     text-align: center;
-    z-index:200;
-    margin-left:28% ;
-    margin-right: 20%;
-   margin-top: -700px;
+    /* z-index:200; */
+    
+    z-index: 100;
+   
+  
   }
   .wrapper.hide{
     opacity: 0;
@@ -149,17 +154,138 @@ background-size:contain; */
   .buttons button:hover{
     transform: scale(0.97);
   }
+.mainshow1:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
 
-  .mainshow{
+.mainshow2:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
+.mainshow3:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
+.mainshow4:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
+.mainshow5:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
+.mainshow6:hover {
+  transform: scale(1.02);
+  transition: all 0.2 ease-in-out;
+}
+  .mainshow1{
     
     display: flex;
-    z-index: 100;
-    position: absolute;
-    margin-top: -680px;
-    margin-left: 910px;
-    height:200px;
-    width:200px;
+    
+    position: relative;
+   
+  
+    height:280px;
+    width:280px;
     cursor: pointer;
+    /* border:solid; */
+    padding:0;
+
+    background-image: url('../../assets/img/p2.svg');
+    background-size:cover;
+    
+  }
+
+  .mainshow2{
+    
+    display: flex;
+   
+    position: relative;
+   
+    
+    height:280px;
+    width:280px;
+    cursor: pointer;
+    /* border:solid; */
+
+    background-image: url('../../assets/img/p3.svg');
+    background-size:cover;
+    
+    
+  }
+  .mainshow3{
+    
+    display: flex;
+   
+    position: relative;
+   
+    
+    height:280px;
+    width:280px;
+    cursor: pointer;
+    /* border:solid; */
+
+    background-image: url('../../assets/img/p6.svg');
+    background-size:cover;
+    
+    
+  }
+  .mainshow4{
+    
+    display: flex;
+    
+    position: relative;
+
+  
+    height:280px;
+    width:280px;
+    cursor: pointer;
+    /* border:solid; */
+
+    background-image: url('../../assets/img/p5.svg');
+    background-size:cover;
+    
+   
+  }
+  .mainshow5{
+    
+    display: flex;
+   
+    position: relative;
+   
+   
+    height:280px;
+    width:280px;
+    cursor: pointer;
+    /* border:solid; */
+
+    background-image: url('../../assets/img/1.svg');
+    background-size:cover;
+    
+   
+  }
+  .mainshow6{
+    
+    display: flex;
+   
+    position: relative;
+   
+    
+    height:280px;
+    width:280px;
+    cursor: pointer;
+    /* border:solid; */
+
+    background-image: url('../../assets/img/p7.svg');
+    background-size:cover;
+    
+    
   }
 
   #room{
@@ -178,6 +304,8 @@ background-size:contain; */
 
 .skr{
     border-radius: 50px;
+    display: inline;
+    position: relative;
       background: #44ADFF;
       white-space: nowrap;
       padding: 12px 28px;
@@ -187,12 +315,142 @@ background-size:contain; */
       outline: none;
       border: none;
       cursor: pointer;
-      display: flex;
+      
       justify-content: center;
+      justify-items: center;
+      justify-self: center;
       align-items: center;
       transition: all 0.2s ease-in-out;
     text-decoration:none;
-    margin-left: 240px;
+    border: solid;
+    /* margin-left: 0; */
     
     
     }
+
+    .backgroup{
+      display: flex;
+      width:100vw;
+       height:fit-content;
+       /* border:solid; */
+   }
+   .image{
+
+    display: flex;
+    position: relative;
+    height:70%;
+    width:60%;
+    /* border:solid; */
+    padding:0;
+    margin-left: -60px;
+    margin-top: 10%;
+
+  }
+
+    .image-group{
+display: grid;
+grid-template-columns: 300px 300px  300px;
+margin-top: 50px;
+height:fit-content;
+column-gap: 50px;
+  row-gap: 20px;
+
+width:100vw;
+      /* border:solid; */
+      z-index: 10;
+    }
+
+    @media screen and (max-width: 580px) {
+
+      .mainshow6{
+        height:150px;
+        width:150px;
+      }
+
+      .mainshow5{
+        height:150px;
+        width:150px;
+      }
+      .mainshow4{
+        height:150px;
+        width:150px;
+      }
+      .mainshow3{
+        height:150px;
+        width:150px;
+      }
+      .mainshow2{
+        height:150px;
+        width:150px;
+      }
+      .mainshow1{
+        height:150px;
+        width:150px;
+      }
+     
+      .roomdiv{
+        display: none;
+      }
+      .backgroup{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: repeat(2, 1fr);
+        justify-content: center; */
+
+        justify-content: center;
+grid-template-rows: 1fr;
+      }
+      .background1{
+        height: 100vh;
+      }
+      .image-group{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        column-gap: 24px;
+        justify-content: center;
+  row-gap: 10px;
+  /* border:solid; */
+  margin-top: -20px;
+  /* margin-top: -30px; */
+        
+      }
+      .image{
+        /* border:solid; */
+        margin-left: -150px;
+        margin-right: 20px;
+        margin: 0 auto;
+        height: 90%;
+        width:60%;
+      }
+
+      .TextMain{
+        font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+      }
+      .wrapper{
+        width:78%;
+        height:66%;
+        margin-top: 100px;
+        margin-left: 10%;
+        text-align: left;
+      }
+      #d2{
+        font-size: 14px;
+        text-align:justify;
+        margin-top: 50px;
+      }
+
+      .skr{
+        display: flex;
+        margin-left: 25%;
+      }
+      }
+
+
+
+      @media screen and (max-width: 1000px) {
+        .image{
+          margin-top: 0;
+        }
+      }

@@ -14,6 +14,8 @@ import Services from "../components/Services/Services";
 import Footer from "../components/Footer/Footer";
 
 function Home() {
+
+ 
   const [isOpen, setIsOpen] = React.useState(false);
 
   const toggle = () => {

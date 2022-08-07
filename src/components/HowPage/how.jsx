@@ -9,10 +9,12 @@ const HowPage = () => {
 
   return (
     <>
-    <div className="backPage">
-    <div id="how" className="background" style={{ backgroundImage: `url(${background})` }}>
+    <div id="how" className="backPage">
+    {/* <div id="how" className="background" style={{ backgroundImage: `url(${background})` }}> */}
+    <div id="how" className="background">
     </div>
     </div>
+    
     </>
   );
 };

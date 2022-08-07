@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
 
               <Item>
                 <NavLinks
-                  to="about"
+                  to="what"
                   spy={true}
                   exact="true"
                   offset={-80}

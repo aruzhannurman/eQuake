@@ -70,7 +70,7 @@ const HeroSection = () => {
          
 
           <Button className="btn2"
-            to="discover"
+            to="what"
             spy={true}
             exact="true"
             offset={-80}

@@ -19,8 +19,8 @@ const Sidebar = ({ isOpen, toggle }) => {
 
       <Wrapper>
         <Menu>
-          <SideLinks
-            to="about"
+        <SideLinks
+            to="services"
             onClick={toggle}
             spy={true}
             exact="true"
@@ -30,7 +30,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             О Нас
           </SideLinks>
           <SideLinks
-            to="discover"
+            to="login"
+            className="login"
             onClick={toggle}
             spy={true}
             exact="true"
@@ -40,7 +41,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             Карта
           </SideLinks>
           <SideLinks
-            to="services"
+            to="what"
             onClick={toggle}
             spy={true}
             exact="true"
@@ -50,8 +51,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             Инфо
           </SideLinks>
           <SideLinks
-            to="signUp"
-            className="signUp"
+            to="how"
+            // className="signUp"
             onClick={toggle}
             spy={true}
             exact="true"

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useGeolocated } from "react-geolocated";
+import { createRoutesFromChildren } from "react-router-dom";
 import data from "../../assets/data.json";
 import "./login.css";
 
@@ -58,6 +59,19 @@ const Demo = () => {
     );
   };
 
+  const [cls, setCls] = useState("#44ADFF");
+
+
+
+  const together = () => {
+    closestPlace();
+    console.log(cls);
+    setCls(cls === "#44ADFF" ? "#D9D9D9" : "#D9D9D9");
+
+  }
+
+
+
   console.log(closestLocation);
   return !isGeolocationAvailable ? (
     <div>{/* Your browser does not support Geolocation */}</div>
@@ -85,8 +99,8 @@ const Demo = () => {
       </div> */}
 
       <div className="top">
-        <button id="login2" onClick={closestPlace}>
-          Найти ТОП-3 ближайшие локации
+        <button id="login2" onClick={together} style={{backgroundColor:`${cls}`}}>
+          Найти ТОП-3 ближайшие локации 
         </button>
         <div className="between">
           {closestLocation &&
@@ -96,8 +110,10 @@ const Demo = () => {
                 <div className="first">
                   {index + 1}. <span id="piece"> {el.name} </span>
                 </div>
+                <div className="leo">Тип: метро
+                  </div>
                 <div className="second">
-                  <a href={el.url}>Ссылка на 2GIS</a>
+                  <a href={el.url}>Построить маршрут</a>
                 </div>
               </div>
             ))}

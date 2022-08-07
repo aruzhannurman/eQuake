@@ -4,25 +4,25 @@
       "name": "Baurzhan Momyshuly",
       "lat": "43.215992",
       "lng": "76.836639" ,
-    "url": ""},
+    "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D70030076391880131/station/70030076391880131/76.836639%2C43.215992?m=77.154171%2C43.252535%2F10.32"},
     {
       "num": "2",
       "name": "Saryarka",
       "lat": "43.223427",
       "lng": "76.859993" ,
-      "url": ""   },
+      "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D70030076391879998/station/70030076391879998/76.858966%2C43.223965?m=77.154171%2C43.252535%2F10.32"   },
     {
       "num": "3",
       "name": "Moskva",
       "lat": "43.228555",
       "lng": "76.867976" ,
-      "url": ""   },
+      "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D70030076391879998?m=76.877363%2C43.236517%2F15"   },
     {
       "num": "4",
       "name": "Sairan",
       "lat": "43.236284",
       "lng": "76.877264" ,
-      "url": ""   },
+      "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D70030076391879998?m=76.877363%2C43.236517%2F15"   },
     {
       "num": "5",
       "name": "Alatau",
@@ -35,7 +35,7 @@
       "name": "Mukhtar Auezov",
       "lat": "43.240285",
       "lng": "76.915653",
-      "url": ""
+      "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D70030076391879998/station/9430197698823105/76.915911%2C43.2403?m=76.915868%2C43.240316%2F15"
     },
     {
       "num": "7",
@@ -48,33 +48,27 @@
       "name": "Abay",
       "lat": "43.242585",
       "lng": "76.949214" ,
-      "url": ""   },
+      "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D70030076391879998/station/9430197698823103/76.949406%2C43.242713?m=76.949363%2C43.242635%2F15"   },
+  
     {
       "num": "9",
-      "name": "Zhibek-Zholy",
-      "lat": "43.259707",
-      "lng": "76.944686",
-      "url": ""
-    },
-    {
-      "num": "10",
       "name": "Almaly",
       "lat": "43.251553",
       "lng": "76.945949",
-      "url": ""
+      "url": "https://2gis.kz/almaty/search/metro/station/9430197698823102/76.946123%2C43.251586?m=76.944686%2C43.259707%2F15"
+    },
+    {
+      "num": "10",
+      "name": "Zhibek-Zholy",
+      "lat": "43.259707",
+      "lng": "76.944686",
+      "url": "https://2gis.kz/almaty/search/metro/station/9430197698823101/76.944686%2C43.259707?m=76.944686%2C43.259707%2F15"
     },
     {
       "num": "11",
-      "name": "Zhibek-Zholy",
-      "lat": "43.259624",
-      "lng": "76.944478",
-      "url": ""
-    },
-    {
-      "num": "12",
       "name": "Raimbek Batyr",
       "lat": "43.271596",
       "lng": "76.944583",
-      "url": ""
+      "url": "https://2gis.kz/almaty/search/metro/filters/subway%3D9430197698823100/station/9430197698823100/76.944567%2C43.271618?m=76.944567%2C43.271618%2F15"
     }
   ]
