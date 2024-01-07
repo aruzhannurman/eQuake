@@ -1,4 +1,4 @@
-
+Find top3 closest safe locations during the earthquake in Almaty, Kazakhstan.
 
 
 <img width="1343" alt="Screen Shot 2024-01-07 at 19 23 02" src="https://github.com/aruzhannurman/eQuake/assets/94863265/d4cbbe36-fd08-4eb9-a52f-d0a51d533adf">
